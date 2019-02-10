@@ -5,7 +5,7 @@ A GitHub Action to configure access to a Kubernetes cluster
 
 ```hcl
 action "kube config" {
-  uses = "./.github/actions/kubeconfig"
+  uses = "urcomputeringpal/actions-kubeconfig@master"
   secrets = [
     "TOKEN",
     "CA_CERT",
